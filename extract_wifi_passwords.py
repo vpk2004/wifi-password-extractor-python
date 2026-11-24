@@ -56,7 +56,7 @@ for profile in profiles:
 df = pd.DataFrame(wifi_data, columns=["Wi-Fi Name", "Password"])
 
 # Store the DataFrame in a CSV file   * Set The File Path Correctly*
-df.to_csv("D:/Besant Technologies/OCT_NOV_DEC(Python Batch I)/code source/wifi_passwords.csv", index=False)
+df.to_csv("PATH_NAME_code source/wifi_passwords.csv", index=False)
 
 # Print the DataFrame for confirmation
 print(df)
